@@ -8,7 +8,7 @@ def home():
 
 @app.route("/Flask")
 def Akshay():
-    return "Hello Akshay"
+    return "Hello Manoj"
 
 if __name__ ==  "__main__":
     app.run(debug=True)

@@ -7,8 +7,8 @@ def home():
     return render_template("flask.html")
 
 @app.route("/Flask")
-def Akshay():
-    return "Hello Akshay"
+def manoj():
+    return "Hello Dr. Manoj! How are You"
 
 if __name__ ==  "__main__":
     app.run(debug=True)
